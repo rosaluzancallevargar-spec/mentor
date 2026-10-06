@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "mentorapp",
+    "ignore": [
+      "firebase.json",
+      "firestore.rules",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "firestore": {
+    "rules": "mentorapp/firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
